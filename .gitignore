@@ -1,0 +1,7 @@
+# Ignore Virtual Machine disk files
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+.DS_Store
+Thumbs.db
