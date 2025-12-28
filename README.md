@@ -56,7 +56,7 @@ This project involved the deployment of a functional **Security Information and 
 <summary><b>Click to View Evidence (Screenshots)</b></summary>
 <br>
 <p align="center">
-  <img src="./Documentation/brute_force_alert.png" width="700">
+  <img width="505" height="513" alt="Image" src="https://github.com/user-attachments/assets/4060bc1f-a62e-42b7-9528-c5242102a31c" />
   <br>
   <i>Figure 1: Wazuh Dashboard capturing the Brute Force attempt in real-time.</i>
 </p>
