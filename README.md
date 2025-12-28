@@ -49,7 +49,7 @@ This project involved the deployment of a functional **Security Information and 
 * **Objective:** To simulate an **External Brute Force Attack (T1110)** on the Windows RDP/Login service and verify if the SIEM triggers the appropriate alerts.
 * **Execution:** Attempted 10+ failed login attempts on the Windows Victim VM using incorrect credentials.
 * **Detection & Analysis:** Wazuh successfully identified the malicious activity. The following alert was triggered:
-    * **Rule ID:** 60122 (or similar)
+    * **Rule ID:** 5710 (or similar)
     * **Description:** Windows: Multiple failed attempts to log in.
     * **Severity:** Level 10 (High Severity)
 
@@ -68,7 +68,7 @@ This project involved the deployment of a functional **Security Information and 
 ## 6. Reflections & Lessons Learned
 Through this lab, I gained a deep understanding of the **Log Pipeline**:
 
-1.  **Generation:** The OS creates an event log (**Event ID 4625**).
+1.  **Generation:** The OS creates an event log (**Event ID 5710**).
 2.  **Collection:** The Wazuh Agent picks up the log and encrypts it.
 3.  **Ingestion:** The Manager receives the log and compares it against pre-defined rules.
 4.  **Alerting:** The Dashboard visualizes the threat for a SOC Analyst to investigate.
