@@ -20,8 +20,7 @@ This project involved the deployment of a functional **Security Information and 
 
 ## 3. Network Architecture
 <p align="center">
-  <img src="./Documentation/topology.png" width="600" alt="Network Topology">
-</p>
+  <img width="418" height="397" alt="Image" src="https://github.com/user-attachments/assets/592abff2-eb82-400c-b40a-5a5a36786c8f" />
 
 | Component | Operating System | IP Address | Role |
 | :--- | :--- | :--- | :--- |
